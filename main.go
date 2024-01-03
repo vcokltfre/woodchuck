@@ -6,14 +6,15 @@ import (
 )
 
 func main() {
-	if len(os.Args) < 4 {
-		fmt.Printf("Usage: %s <full> <start> <end>\n", os.Args[0])
+	if len(os.Args) != 3 {
+		fmt.Printf("Usage: %s <start> <end>\n", os.Args[0])
 		os.Exit(1)
 	}
 
-	full := os.Args[1]
 	start := os.Args[2]
 	end := os.Args[3]
+
+	full := start + end
 
 	qualifier := "a"
 	if start[0] == 'a' || start[0] == 'e' || start[0] == 'i' || start[0] == 'o' || start[0] == 'u' {

@@ -13,10 +13,10 @@ Or download a binary from the [releases](https://github.com/vcokltfre/woodchuck/
 ## Usage
 
 ```sh
-woodchuck <full> <start> <end>
+woodchuck <start> <end>
 
 # Example
-woodchuck woodchuck wood chuck
+woodchuck wood chuck
 # Output: How much wood could a woodchuck chuck if a woodchuck could chuck wood?
 ```
 
