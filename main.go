@@ -11,8 +11,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	start := os.Args[2]
-	end := os.Args[3]
+	start := os.Args[1]
+	end := os.Args[2]
 
 	full := start + end
 
